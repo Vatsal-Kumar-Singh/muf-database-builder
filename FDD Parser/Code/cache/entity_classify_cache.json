@@ -10978,5 +10978,140 @@
     "entity_type": "company",
     "search_target": "Zaxbax Greensboro, Llc",
     "method": "regex"
+  },
+  "rpm jamba #6, inc.": {
+    "entity_type": "company",
+    "search_target": "Rpm Jamba #6, Inc.",
+    "method": "regex"
+  },
+  "clk 1 juice, lp": {
+    "entity_type": "company",
+    "search_target": "Clk 1 Juice, Lp",
+    "method": "regex"
+  },
+  "compass group usa, inc.": {
+    "entity_type": "company",
+    "search_target": "Compass Group Usa, Inc.",
+    "method": "regex"
+  },
+  "trees company llc": {
+    "entity_type": "company",
+    "search_target": "Trees Company Llc",
+    "method": "regex"
+  },
+  "juice it up, inc.": {
+    "entity_type": "company",
+    "search_target": "Juice It Up, Inc.",
+    "method": "regex"
+  },
+  "bruegger's enterprises, inc.": {
+    "entity_type": "company",
+    "search_target": "Bruegger'S Enterprises, Inc.",
+    "method": "regex"
+  },
+  "brack & field, llc": {
+    "entity_type": "company",
+    "search_target": "Brack & Field, Llc",
+    "method": "regex"
+  },
+  "anderson juice - sandifur, llc": {
+    "entity_type": "company",
+    "search_target": "Anderson Juice - Sandifur, Llc",
+    "method": "regex"
+  },
+  "cmcs 3 juice, lp": {
+    "entity_type": "company",
+    "search_target": "Cmcs 3 Juice, Lp",
+    "method": "regex"
+  },
+  "hot buns company": {
+    "entity_type": "company",
+    "search_target": "Hot Buns Company",
+    "method": "regex"
+  },
+  "rich foods llc": {
+    "entity_type": "company",
+    "search_target": "Rich Foods Llc",
+    "method": "regex"
+  },
+  "sonnshine llc": {
+    "entity_type": "company",
+    "search_target": "Sonnshine Llc",
+    "method": "regex"
+  },
+  "gns holdings inc.": {
+    "entity_type": "company",
+    "search_target": "Gns Holdings Inc.",
+    "method": "regex"
+  },
+  "american juice company inc.": {
+    "entity_type": "company",
+    "search_target": "American Juice Company Inc.",
+    "method": "regex"
+  },
+  "three tom brands, llc": {
+    "entity_type": "company",
+    "search_target": "Three Tom Brands, Llc",
+    "method": "regex"
+  },
+  "all about foods group inc.": {
+    "entity_type": "company",
+    "search_target": "All About Foods Group Inc.",
+    "method": "regex"
+  },
+  "connected juice co, llc": {
+    "entity_type": "company",
+    "search_target": "Connected Juice Co, Llc",
+    "method": "regex"
+  },
+  "vibe and blend llc": {
+    "entity_type": "company",
+    "search_target": "Vibe And Blend Llc",
+    "method": "regex"
+  },
+  "rogue smoothies, inc.": {
+    "entity_type": "company",
+    "search_target": "Rogue Smoothies, Inc.",
+    "method": "regex"
+  },
+  "smoothie life llc": {
+    "entity_type": "company",
+    "search_target": "Smoothie Life Llc",
+    "method": "regex"
+  },
+  "amirah ventures llc": {
+    "entity_type": "company",
+    "search_target": "Amirah Ventures Llc",
+    "method": "regex"
+  },
+  "linrfa fresh llc": {
+    "entity_type": "company",
+    "search_target": "Linrfa Fresh Llc",
+    "method": "regex"
+  },
+  "cediel concession management, llc": {
+    "entity_type": "company",
+    "search_target": "Cediel Concession Management, Llc",
+    "method": "regex"
+  },
+  "pak investment, inc.": {
+    "entity_type": "company",
+    "search_target": "Pak Investment, Inc.",
+    "method": "regex"
+  },
+  "idad-4, inc": {
+    "entity_type": "company",
+    "search_target": "Idad-4, Inc",
+    "method": "regex"
+  },
+  "la juice company, llc": {
+    "entity_type": "company",
+    "search_target": "La Juice Company, Llc",
+    "method": "regex"
+  },
+  "whirl san diego llc": {
+    "entity_type": "company",
+    "search_target": "Whirl San Diego Llc",
+    "method": "regex"
   }
 }

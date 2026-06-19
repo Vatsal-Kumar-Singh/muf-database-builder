@@ -108138,5 +108138,1217 @@
   "Frosting Roti Inc.:Cinnabon:VIRGINIA|Sdr Foods, Inc.:Little Caesars:VIRGINIA": {
     "match": false,
     "reason": "The two records represent distinct corporate entities ('Frosting Roti Inc.' and 'Sdr Foods, Inc.') with no name overlap, operating different franchise brands in different Virginia cities, making a common ownership match highly unlikely without additional corroborating evidence."
+  },
+  "Clk 1 Juice, Lp:Jamba Juice:CALIFORNIA|Clk 4 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": true,
+    "reason": "Same 'Clk Juice' base name with different numbers suggests same operator running multiple franchises."
+  },
+  "Rpm Jamba #3, Inc.:Jamba Juice:CALIFORNIA|Rpm Jamba #6, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": true,
+    "reason": "Identical 'Rpm Jamba' base name with sequential franchise numbers indicates same operator."
+  },
+  "Rpm Jamba #4, Inc.:Jamba Juice:CALIFORNIA|Rpm Jamba #6, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": true,
+    "reason": "Identical 'Rpm Jamba' base name with sequential franchise numbers indicates same operator."
+  },
+  "Rpm Jamba #3, Inc.:Jamba Juice:CALIFORNIA|Rpm Jamba #4, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": true,
+    "reason": "Identical 'Rpm Jamba' base name with sequential franchise numbers indicates same operator."
+  },
+  "Brea Juice Company, Llc:Jamba Juice:CALIFORNIA|La Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "Completely different legal entity names in same city indicate separate operators."
+  },
+  "Bds Travel Center Inc.:Jamba Juice:CALIFORNIA|Gateway Travel Center, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "Completely different company names (Gateway vs Bds Travel Center) in different California cities with no common identifying features."
+  },
+  "Apna Investment Group Inc:Jamba Juice:CALIFORNIA|Pak Investment, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "Distinct company names (Pak Investment vs Apna Investment Group) in different California cities with no shared identifiers beyond brand."
+  },
+  "Anderson Juice - Sandifur, Llc:Jamba Juice:WASHINGTON|Anderson Juice, Inc.:Jamba Juice:WASHINGTON": {
+    "match": true,
+    "reason": "Both Anderson Juice entities in Washington with matching core operator name suggest same person operating multiple Jamba Juice locations."
+  },
+  "Anderson Juice - Rainier, Llc:Jamba Juice:WASHINGTON|Anderson Juice, Inc.:Jamba Juice:WASHINGTON": {
+    "match": true,
+    "reason": "Anderson Juice entities in same Washington state with consistent operator name indicates same person managing multiple franchises."
+  },
+  "Anderson Juice - Rainier, Llc:Jamba Juice:WASHINGTON|Anderson Juice - Sandifur, Llc:Jamba Juice:WASHINGTON": {
+    "match": true,
+    "reason": "Same Anderson Juice base operator name across two Washington Jamba Juice locations with geographic LLC qualifiers (Sandifur/Rainier) indicating single multi-unit franchisee."
+  },
+  "Air Ventures, Llc:Jamba Juice:MARYLAND|Comforth Ventures Llc:Jamba Juice:MARYLAND": {
+    "match": false,
+    "reason": "Distinct LLC names (Air Ventures vs Comforth Ventures) with no semantic connection despite shared state and brand."
+  },
+  "La Jamba, Llc:Jamba Juice:CALIFORNIA|Socal Jamba, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "Both entities reference 'Jamba' and operate in Southern California, but entity names (Socal Jamba vs La Jamba) are sufficiently different to indicate separate operators."
+  },
+  "Simshiv Investments Inc.:Jamba Juice:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "Completely unrelated investment company names (Simshiv vs Tera) in geographically distant California cities with no connecting identifiers."
+  },
+  "Pak Investment, Inc.:Jamba Juice:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Pak Investment, Inc.' vs 'Tera Investments, Inc.') with different names, operating in different California cities (Winchester vs Davis), with no overlapping identifiers suggesting common ownership."
+  },
+  "Pak Investment, Inc.:Jamba Juice:CALIFORNIA|Tera Investments, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities with different names (Pak Investment, Inc. vs. Tera Investments, Inc.) operating in different cities, with no overlapping identifiers to suggest common ownership."
+  },
+  "Pak Investment, Inc.:Jamba:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are completely different ('Tera Investments, Inc.' vs 'Pak Investment, Inc.'), suggesting distinct corporate owners operating in different cities (Davis vs Jurupa Valley), with no basis to conclude they represent the same person."
+  },
+  "Tera Investments, Inc.:Jamba Juice:CALIFORNIA|Tetrad Investments, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities \u2014 'Tetrad Investments, LP' (a limited partnership in Tustin) and 'Tera Investments, Inc.' (a corporation in Davis) have different names, different legal structures, and operate in different cities with no address overlap."
+  },
+  "Fresh Dining Concepts Llc:Jamba Juice:FLORIDA|Grak Concepts Llc:Jamba Juice:FLORIDA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names ('Grak Concepts' vs 'Fresh Dining Concepts'), different cities, and different addresses, indicating they are separate legal entities and almost certainly different operators."
+  },
+  "Clk 3 Juice, Lp:Jamba:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "CMCS 3 Juice LP and CLK 3 Juice LP are distinct legal entities with different name prefixes (CMCS vs CLK), different cities (Anaheim vs Poway), and no evidence they refer to the same person or ownership group."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Valley Juice, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLC entities ('Valley Juice, LLC' vs '13P Juice, LLC') with different names suggesting different ownership groups, and while both are in California, they operate in different cities (San Leandro vs Auburn) with no overlapping identifiers."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Juice To Go, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLC entities with different names ('Juice To Go, Llc' vs '13P Juice, Llc') operating in different California cities (Santa Monica vs Auburn), with no name overlap suggesting common ownership."
+  },
+  "American Juice Company Inc.:Jamba Juice:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (RPM Juice, Inc. vs. American Juice Company Inc.) operating in different cities with no name overlap, making it highly unlikely they represent the same real-world person or ownership group."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Fc Juice Partners California, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLC entities with completely different names ('FC Juice Partners California' vs '13P Juice'), operating in different cities (Thousand Oaks vs Auburn), with no name overlap suggesting common ownership."
+  },
+  "Dia Juice, Llc:Jamba Juice:COLORADO|Fm Juice Company, Llc:Jamba Juice:COLORADO": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('FM Juice Company' vs 'Dia Juice') at different addresses on Pena Blvd, likely representing separate franchise operators at Denver International Airport concourse locations."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Valley Juice Alameda, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (13P Juice vs. Valley Juice Alameda) operating in different cities (Auburn vs. Alameda), indicating separate franchise entities rather than the same operator."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Brea Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('13P Juice, LLC' and 'Brea Juice Company, LLC') with different names, suggesting different legal entities and likely different owners, despite both being Jamba Juice franchisees in California."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|La Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs ('13P Juice, Llc' and 'La Juice Company, Llc') with distinct names and operating in different cities (Auburn vs. Los Angeles), making it highly unlikely they represent the same real-world person or entity."
+  },
+  "Mcf Ventures Llc:Cinnabon:CALIFORNIA|Samra Ventures, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are completely different LLCs (MCF Ventures vs. Samra Ventures) with no name overlap, and they operate in different cities (Culver City vs. Berkeley), making it very unlikely these represent the same real-world person or business."
+  },
+  "Golden West Smoothies, Llc:Jamba Juice:CALIFORNIA|Smoothies To Go, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Golden West Smoothies vs. Smoothies To Go) in different cities (Pasadena vs. Lakewood), and while both operate smoothie-related franchises in California, LLC identity does not transfer between differently-named entities without additional evidence of common ownership."
+  },
+  "Royal Seven Food Llc:Jamba Juice:GEORGIA|Royal Seven J'S Llc:Cinnabon:GEORGIA": {
+    "match": true,
+    "reason": "Both are Georgia LLCs with 'Royal Seven' in the name operating in adjacent Henry County towns (Hampton and Jackson), strongly suggesting the same owner operating multiple franchise brands under a shared LLC naming convention."
+  },
+  "Brea Juice Company, Llc:Jamba Juice:CALIFORNIA|La Juice Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLCs ('Brea Juice Company' vs 'LA Juice Company') operating in different cities (Los Angeles vs Alhambra), though both are California Jamba Juice operators \u2014 the similar naming pattern suggests possible common ownership, but the different entity names prevent a confident match."
+  },
+  "Brea Juice Company, Llc:Jamba:CALIFORNIA|La Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These appear to be two distinct LLC entities ('La Juice Company' vs 'Brea Juice Company') operating in different cities (Los Angeles vs Glendale), though both are Jamba Juice operators in Southern California \u2014 possibly related or under common ownership, but not the same legal entity."
+  },
+  "Lyndal Enterprises, Inc.:Little Caesars:OHIO|Noor Enterprises Inc.:Jamba Juice:OHIO": {
+    "match": false,
+    "reason": "The entity names are completely different ('Noor Enterprises' vs 'Lyndal Enterprises') with no name overlap, and the cities are distinct (Columbus vs Eastlake), making it highly unlikely these represent the same real-world person or ownership group."
+  },
+  "Mer Business Llc:Jamba Juice:TEXAS|Saveco Business Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different LLCs ('Saveco Business LLC' vs 'Mer Business LLC') with no name overlap, and they operate in different Texas cities (Fresno vs San Antonio), making it very unlikely these represent the same real-world person."
+  },
+  "Jesla Development, Llc:Cinnabon:MISSOURI|Kingsway Development, Llc:Jamba Juice:MISSOURI": {
+    "match": false,
+    "reason": "These are two distinct LLC entities with different names (Jesla Development vs. Kingsway Development), and while both are in Missouri, there is no name overlap or other evidence linking them to the same individual owner."
+  },
+  "Smoothies To Go, Llc:Jamba:CALIFORNIA|Socal Smoothies, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('Socal Smoothies, Llc' vs 'Smoothies To Go, Llc') with different names, different cities, and different addresses, suggesting separate business entities despite operating in the same general region and industry."
+  },
+  "Refresh Travel Plaza Inc.:Cinnabon:CALIFORNIA|Sim Shiv Travel Plaza Inc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are different corporate entities ('Refresh Travel Plaza Inc.' vs 'Sim Shiv Travel Plaza Inc') with distinct names, operating in different California cities (San Juan Bautista vs Baker), making them highly unlikely to be the same real-world operator."
+  },
+  "Creative Juices, Inc.:Jamba Juice:CALIFORNIA|Forever Juice, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Creative Juices, Inc.' vs 'Forever Juice, Inc.') operating in different California cities (Sand City vs Brea), with no name overlap suggesting common ownership."
+  },
+  "Tera Investments, Inc.:Jamba:CALIFORNIA|Tetrad Investments, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities \u2014 'Tetrad Investments, LP' (a limited partnership in Tustin) and 'Tera Investments, Inc.' (a corporation in Davis) have different names, different legal structures, and operate in different cities, making it unlikely they refer to the same person or organization."
+  },
+  "Refresh Travel Plaza Inc.:Jamba:CALIFORNIA|Sim Shiv Travel Plaza Inc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different corporate entities ('Sim Shiv Travel Plaza Inc' vs 'Refresh Travel Plaza Inc.') operating in different cities (Baker vs San Juan Bautista), with no name overlap suggesting common ownership."
+  },
+  "Tera Investments, Inc.:Jamba Juice:CALIFORNIA|Tetrad Investments, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are distinct corporate entities ('Tera Investments, Inc.' vs 'Tetrad Investments, LP') with different legal structures, different cities (Davis vs Tustin), and no strong phonetic or structural similarity to suggest they are the same operator."
+  },
+  "Refresh Travel Plaza Inc.:Jamba Juice:CALIFORNIA|Sim Shiv Travel Plaza Inc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Refresh Travel Plaza Inc.' vs 'Sim Shiv Travel Plaza Inc') with different names, different cities (San Juan Bautista vs Baker), and no overlapping identifiers suggesting common ownership."
+  },
+  "Sbb Enterprises, Inc.:Little Caesars:FLORIDA|Sun N' Fun Enterprises, Inc.:Jamba Juice:FLORIDA": {
+    "match": false,
+    "reason": "The entity names are entirely different ('Sun N' Fun Enterprises' vs 'SBB Enterprises'), operate in different Florida cities (Kissimmee vs Jacksonville), and there is no name or structural overlap to suggest common ownership."
+  },
+  "Jiya Enterprise, Inc.:Cinnabon:OHIO|Noor Enterprises Inc.:Jamba Juice:OHIO": {
+    "match": false,
+    "reason": "The entity names are completely different ('Jiya Enterprise' vs 'Noor Enterprises'), suggesting distinct ownership groups, and while both are in Ohio, the cities and addresses do not overlap."
+  },
+  "Prigom Ventures Llc:Cinnabon:TEXAS|Ptv Venture, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The entity names are distinct LLCs ('Prigom Ventures' vs 'PTV Venture') with different abbreviations and no clear naming relationship, operating in different Texas cities (San Antonio vs Dallas), making separate ownership more likely than a single operator."
+  },
+  "Socal Smoothies, Llc:Cinnabon:CALIFORNIA|South Bay Smoothies, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (Socal Smoothies vs South Bay Smoothies) operating different brands in different California cities, with no name overlap suggesting a common individual owner."
+  },
+  "Socal Smoothies, Llc:Jamba:CALIFORNIA|South Bay Smoothies, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "Both are LLC entities (not individuals) operating smoothie-related franchises in Southern California, but 'South Bay Smoothies, LLC' and 'SoCal Smoothies, LLC' are distinct legal entities at different addresses in different cities, though they could potentially share common ownership \u2014 the entity names alone are insufficient to confirm identity without additional ownership data."
+  },
+  "Smoothies To Go, Llc:Jamba:CALIFORNIA|South Bay Smoothies, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (South Bay Smoothies vs. Smoothies To Go) at different addresses in different cities, and while both operate smoothie-related Jamba/Jamba Juice franchises in California, LLC identity requires matching legal entity names \u2014 not just industry overlap."
+  },
+  "Grab N Go Juice, Llc:Jamba:CALIFORNIA|Juice To Go, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs with distinct names ('Juice To Go, LLC' vs 'Grab N Go Juice, LLC') operating in different cities (Santa Monica vs Downey), and while both operate Jamba Juice/Jamba franchises in California, LLC name differences of this magnitude typically indicate different legal entities and owners."
+  },
+  "Socal Smoothies, Llc:Jamba Juice:CALIFORNIA|South Bay Smoothies, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "Both are LLC entities operating Jamba/Jamba Juice locations in the South Bay area of California, suggesting possible common ownership, but the different entity names (Socal Smoothies vs South Bay Smoothies) and different cities (Torrance vs Carson) make this ambiguous \u2014 likely related but not definitively the same legal person."
+  },
+  "Clk 1 Juice, Lp:Jamba Juice:CALIFORNIA|Cmcs 2 Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities ('Clk 1 Juice, Lp' vs 'Cmcs 2 Juice, Lp') with different entity prefixes and different cities, indicating separate franchise ownership groups rather than the same person."
+  },
+  "Clk 1 Juice, Lp:Jamba Juice:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct limited partnership entities ('CLK 1 Juice, LP' vs 'CMCS 3 Juice, LP') with different entity names and different cities, suggesting separate franchise operator groups despite both being California-based Jamba Juice operators."
+  },
+  "Bds Travel Center Inc.:Jamba Juice:CALIFORNIA|Walnut Travel Center, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (BDS Travel Center Inc. vs. Walnut Travel Center, Inc.) operating in different California cities with no name overlap, suggesting different ownership groups despite both being travel center operators with Jamba franchises."
+  },
+  "Clk 5 Juice, Lp:Jamba:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LP entities ('CMCS 3 Juice' vs 'CLK 5 Juice') with different initials, different numbering, and different cities, indicating separate ownership groups despite both operating Jamba Juice franchises in California."
+  },
+  "Clk 1 Juice, Lp:Jamba:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CMCS 3 Juice LP vs CLK 1 Juice LP) with different name prefixes, suggesting different ownership groups despite both being California-based Jamba Juice operators."
+  },
+  "Clk 6 Juice, Lp:Jamba:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CMCS 3 Juice LP vs CLK 6 Juice LP) with different name prefixes suggesting different ownership groups, despite both operating Jamba Juice franchises in California."
+  },
+  "Clk 4 Juice, Lp:Jamba:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LP entities ('CMCS 3 Juice' vs 'CLK 4 Juice') with different name prefixes suggesting different ownership groups, operating in different cities (Anaheim vs San Diego), despite both being California-based Jamba Juice franchisees."
+  },
+  "Clk 3 Juice, Lp:Jamba:CALIFORNIA|Cmcs 2 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LPs with different names ('CMCS 2 Juice' vs 'CLK 3 Juice') and different initials suggesting different ownership entities, despite both operating Jamba Juice franchises in California."
+  },
+  "Clk 5 Juice, Lp:Jamba:CALIFORNIA|Cmcs 2 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct limited partnerships (CMCS 2 Juice, LP vs. CLK 5 Juice, LP) with different entity names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Clk 1 Juice, Lp:Jamba:CALIFORNIA|Cmcs 2 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CMCS 2 Juice LP vs CLK 1 Juice LP) with different name prefixes, suggesting different ownership groups despite both being California-based Jamba Juice operators."
+  },
+  "Clk 6 Juice, Lp:Jamba:CALIFORNIA|Cmcs 2 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LPs ('CMCS 2 Juice' vs 'CLK 6 Juice') with different entity names and initials, suggesting different ownership groups despite both being California Jamba Juice franchisees."
+  },
+  "Clk 4 Juice, Lp:Jamba:CALIFORNIA|Cmcs 2 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LP entities ('CMCS 2 Juice' vs 'CLK 4 Juice') with different naming prefixes suggesting different ownership groups, despite operating in the same state and similar brand (Jamba Juice/Jamba)."
+  },
+  "Clk 4 Juice, Lp:Jamba Juice:CALIFORNIA|Cmcs 2 Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities ('CLK 4 Juice, LP' vs 'CMCS 2 Juice, LP') with different entity names, different cities (San Diego vs Costa Mesa), and no overlapping identifiers suggesting common ownership."
+  },
+  "Clk 4 Juice, Lp:Jamba Juice:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "CLK 4 Juice LP and CMCS 3 Juice LP are distinct limited partnership entities with different names, different cities (San Diego vs Anaheim), and no evidence they refer to the same person or entity."
+  },
+  "Gomaa Holdings Llc:Cinnabon:MICHIGAN|Hkj Holdings Llc:Jamba Juice:MICHIGAN": {
+    "match": false,
+    "reason": "The entity names are completely different LLCs (Gomaa Holdings vs HKJ Holdings) operating in different Michigan cities (Grand Rapids vs Dearborn), with no name overlap suggesting common ownership."
+  },
+  "Air Ventures, Llc:Jamba Juice:MARYLAND|Comforth Ventures Llc:Jamba:MARYLAND": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Air Ventures vs. Comforth Ventures), different cities (Baltimore vs. Columbia), and different brands (Jamba Juice vs. Jamba), with no evidence they share common ownership."
+  },
+  "Air Ventures, Llc:Jamba:MARYLAND|Comforth Ventures Llc:Jamba Juice:MARYLAND": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Comforth Ventures vs. Air Ventures) operating in different cities (Columbia vs. Baltimore/BWI Airport), suggesting different ownership entities despite both operating in Maryland."
+  },
+  "Simshiv Investments Inc.:Cinnabon:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are completely different corporate names (Simshiv Investments Inc. vs. Tera Investments, Inc.) with no linguistic or phonetic similarity, and they operate in different California cities (Calexico vs. Davis), making it highly unlikely these represent the same real-world person or ownership group."
+  },
+  "Bds Travel Center Inc.:Jamba:CALIFORNIA|Gateway Travel Center, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Gateway Travel Center, Inc.' vs 'BDS Travel Center Inc.') in different California cities with no overlapping names, suggesting different ownership groups despite both operating travel center-affiliated franchise locations."
+  },
+  "Simshiv Investments Inc.:Jamba Juice:CALIFORNIA|Tera Investments, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct corporate entities ('Simshiv Investments Inc.' in Calexico vs. 'Tera Investments, Inc.' in Davis) with different names, different cities, and no apparent connection beyond operating in California."
+  },
+  "Clk 1 Juice, Lp:Jamba Juice:CALIFORNIA|Cmcs Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "CLK 1 Juice LP and CMCS Juice LP are distinct legal entities with different names and acronyms, operating in different cities (Camp Pendleton South vs. Cypress), making it unlikely they refer to the same person or entity despite both being California-based Jamba/Jamba Juice franchisees."
+  },
+  "Simshiv Investments Inc.:Jamba:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Tera Investments, Inc.' vs. 'Simshiv Investments Inc.') with different names, operating in different cities (Davis vs. Calexico) with no indication they share common ownership."
+  },
+  "Bds Travel Center Inc.:Jamba Juice:CALIFORNIA|Gateway Travel Center, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Bds Travel Center Inc.' and 'Gateway Travel Center, Inc.' \u2014 with different names, different cities (Santa Nella vs. Visalia), and no overlapping identifiers suggesting common ownership."
+  },
+  "Clk 3 Juice, Lp:Jamba:CALIFORNIA|Cmcs Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LP entities ('CMCS Juice' vs 'CLK 3 Juice') with different name prefixes suggesting different ownership groups, and they operate in different cities (Cypress vs Poway) roughly 100 miles apart."
+  },
+  "Clk 5 Juice, Lp:Jamba:CALIFORNIA|Cmcs Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "CMCS Juice LP and CLK 5 Juice LP are distinct legal entities with different names and initials, operating in different cities (Cypress vs San Diego), making it unlikely they refer to the same person or ownership group."
+  },
+  "Clk 1 Juice, Lp:Jamba:CALIFORNIA|Cmcs Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LP entities ('CMCS Juice' vs 'CLK 1 Juice') with different initials suggesting different ownership groups, despite both operating Jamba (Juice) franchises in California."
+  },
+  "Clk 6 Juice, Lp:Jamba:CALIFORNIA|Cmcs Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LP entities ('CMCS Juice' vs 'CLK 6 Juice') with different identifying initials, different cities, and no name overlap suggesting the same person or partnership behind both."
+  },
+  "Clk 4 Juice, Lp:Jamba:CALIFORNIA|Cmcs Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LP entities ('CMCS Juice' vs 'CLK 4 Juice') with different initials suggesting different ownership groups, operating in different cities (Cypress vs San Diego), though both are California-based Jamba/Jamba Juice franchisees."
+  },
+  "Coyle Investments Llc:Jamba:CALIFORNIA|Grappa Investments Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records refer to different LLCs ('Grappa Investments' vs 'Coyle Investments') with no name overlap, located in different California cities (Ripon vs Oakley), indicating distinct legal entities and likely different owners."
+  },
+  "Clk 4 Juice, Lp:Jamba Juice:CALIFORNIA|Cmcs Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "CLK 4 Juice LP and CMCS Juice LP are distinct legal entities with different names and different cities (San Diego vs Cypress), making it unlikely they represent the same real-world person or ownership group."
+  },
+  "Mei-Gsr Holdings Llc:Jamba Juice:NEVADA|O.N.E. Holdings, Llc:Cinnabon:NEVADA": {
+    "match": false,
+    "reason": "The two records are distinct LLCs with different names (O.N.E. Holdings vs. Mei-Gsr Holdings), different brands, and different cities in Nevada, with no name overlap suggesting common ownership."
+  },
+  "Bruegger'S Enterprises, Inc.:Jamba Juice:MASSACHUSETTS|Chew Enterprises Inc:Dairy Queen:MASSACHUSETTS": {
+    "match": false,
+    "reason": "The names refer to entirely different corporate entities \u2014 'Chew Enterprises Inc' and 'Bruegger'S Enterprises, Inc.' \u2014 with no name overlap, different cities, and no basis to conclude they are the same person or organization."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Jireh Jorman Ventures, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different ('Jireh Jorman Ventures' vs 'Amirah Ventures') with no name overlap, and they operate in different Texas cities (San Antonio vs Houston), providing no basis to conclude these are the same real-world person."
+  },
+  "Amirah Ventures Llc:Jamba:TEXAS|Four Leaf Ventures, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different ('Four Leaf Ventures' vs 'Amirah Ventures') with no overlap, and they operate in different Texas cities (Dallas Fort Worth vs Houston), making it highly unlikely these refer to the same real-world person or ownership group."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Four Leaf Ventures, Llc:Jamba:TEXAS": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (Amirah Ventures vs. Four Leaf Ventures) operating in different Texas cities (Houston vs. Dallas-Fort Worth), making it unlikely they represent the same real-world operator."
+  },
+  "Pak Investment, Inc.:Jamba Juice:CALIFORNIA|Simshiv Investments Inc.:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct corporate entities ('Simshiv Investments Inc.' and 'Pak Investment, Inc.') with different names, different cities (Calexico vs. Winchester), and no overlapping identifiers suggesting common ownership."
+  },
+  "Pak Investment, Inc.:Jamba Juice:CALIFORNIA|Simshiv Investments Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Pak Investment, Inc.' vs 'Simshiv Investments Inc.') with different names, different cities, and no overlapping identifiers that would suggest common ownership."
+  },
+  "Pak Investment, Inc.:Jamba:CALIFORNIA|Simshiv Investments Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Simshiv Investments Inc. vs. Pak Investment, Inc.) with different names operating in different cities (Calexico vs. Jurupa Valley), with no basis to link them to the same real-world person."
+  },
+  "Hkj Holdings Llc:Jamba Juice:MICHIGAN|Nile Holdings Llc:Cinnabon:MICHIGAN": {
+    "match": false,
+    "reason": "The two records are different LLC entities ('Nile Holdings' vs 'HKJ Holdings') with distinct names suggesting different ownership groups, and while both are in Michigan, they operate in different cities (Portage vs Dearborn) with no name overlap to suggest common ownership."
+  },
+  "Gns Holdings Inc.:Jamba Juice:NEVADA|Mei-Gsr Holdings Llc:Jamba:NEVADA": {
+    "match": false,
+    "reason": "The entity names 'GNS Holdings Inc.' and 'Mei-GSR Holdings LLC' are distinct corporate entities with different naming conventions, different cities (Carson City vs. Reno), and no overlapping identifiers suggesting common ownership."
+  },
+  "Gns Holdings Inc.:Jamba:NEVADA|Mei-Gsr Holdings Llc:Jamba Juice:NEVADA": {
+    "match": false,
+    "reason": "The entity names are distinct ('Mei-Gsr Holdings LLC' vs 'Gns Holdings Inc.') with no overlapping initials or naming patterns, and they operate in different cities (Reno vs Carson City), making it unlikely these represent the same real-world operator."
+  },
+  "Teta Inc.:Cinnabon:CALIFORNIA|Tkram, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names 'Teta Inc.' and 'Tkram, Inc.' are distinct corporate names with no apparent phonetic or abbreviation relationship, and without additional overlapping information (shared address, officer names, or phone numbers), there is insufficient basis to conclude these are the same real-world operator despite sharing the same city."
+  },
+  "Golden West Smoothies, Llc:Jamba:CALIFORNIA|South Bay Smoothies, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (South Bay Smoothies vs. Golden West Smoothies) operating at different addresses in different cities, though both are in Southern California and in the smoothie/juice franchise space \u2014 the entity names alone are insufficient to conclude same ownership without additional evidence."
+  },
+  "13P Juice, Llc:Jamba:CALIFORNIA|Juice To Go, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs with distinct names ('Juice To Go, LLC' vs '13P Juice, LLC') operating in different California cities (Santa Monica vs Auburn), with no name overlap suggesting common ownership."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Juice To Go, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names ('13P Juice, LLC' vs 'Juice To Go, LLC'), different cities (Auburn vs Los Angeles), and no overlapping identifiers suggesting common ownership."
+  },
+  "Golden West Smoothies, Llc:Jamba Juice:CALIFORNIA|South Bay Smoothies, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLC entities ('Golden West Smoothies' vs 'South Bay Smoothies') operating in different cities (Pasadena vs Carson), and while both are Jamba/Jamba Juice franchisees in California, different LLC names strongly indicate different ownership groups rather than the same person."
+  },
+  "Fresh Dining Concepts Llc:Cinnabon:FLORIDA|Grak Concepts Llc:Jamba Juice:FLORIDA": {
+    "match": false,
+    "reason": "The entity names are completely different ('Fresh Dining Concepts Llc' vs 'Grak Concepts Llc'), indicating distinct legal entities, and while both are in Florida, they are in different cities with no name overlap to suggest common ownership."
+  },
+  "Jzs Enterprises Of Jax Inc:Dairy Queen:FLORIDA|Sun N' Fun Enterprises, Inc.:Jamba Juice:FLORIDA": {
+    "match": false,
+    "reason": "The two records represent entirely different corporate entities ('Jzs Enterprises Of Jax Inc' in Jacksonville vs. 'Sun N' Fun Enterprises, Inc.' in Kissimmee) with no name overlap, different cities, and no indicators of common ownership."
+  },
+  "Fresh Dining Concepts Llc:Jamba:FLORIDA|Grak Concepts Llc:Jamba Juice:FLORIDA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Grak Concepts vs. Fresh Dining Concepts) at different addresses in different cities, making it unlikely they represent the same real-world person or entity despite operating in overlapping South Florida geography."
+  },
+  "Fresh Dining Concepts Llc:Jamba Juice:FLORIDA|Grak Concepts Llc:Jamba:FLORIDA": {
+    "match": false,
+    "reason": "The entity names are entirely different ('Fresh Dining Concepts LLC' vs 'Grak Concepts LLC'), and while both are in South Florida, they are in different cities with different addresses, indicating two distinct franchise operators."
+  },
+  "Noor Enterprises Inc.:Jamba Juice:OHIO|Rukieh Enterprises, Llc:Cinnabon:OHIO": {
+    "match": false,
+    "reason": "The entity names are entirely different ('Rukieh Enterprises' vs 'Noor Enterprises') with no shared naming elements, and they operate in different Ohio cities (Maumee vs Columbus) with no geographic overlap."
+  },
+  "Fresh Dining Concepts Llc:Jamba Juice:MINNESOTA|Grak Concepts Llc:Cinnabon:MINNESOTA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Grak Concepts vs Fresh Dining Concepts), different cities (Duluth vs Bloomington), and different brands, with no evidence they share common ownership."
+  },
+  "Five Star Pretzel, Llc:Jamba Juice:TEXAS|Hmr Pretzels, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names, different cities (El Paso vs Sugar Land), and different brands, with no overlapping identifiers suggesting common ownership."
+  },
+  "Four Leaf Ventures, Llc:Jamba Juice:TEXAS|Genco Ventures, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names are entirely different LLCs (Genco Ventures vs. Four Leaf Ventures) with no name overlap, and their locations are in different Texas cities with no indication of common ownership."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Genco Ventures, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names are entirely different (Genco Ventures vs. Amirah Ventures) with no common words, and the cities are distinct (Henrietta vs. Houston), making it highly unlikely these represent the same real-world person or ownership group."
+  },
+  "La Juice Company, Llc:Jamba:CALIFORNIA|Slo Life Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names operating in different California cities (San Luis Obispo vs. Alhambra), with no name overlap suggesting common ownership."
+  },
+  "Sodexo Operations, Llc:Jamba Juice:CALIFORNIA|Ta Operating Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Sodexo Operations LLC vs TA Operating LLC) with different names, different cities, and no indicators they share common ownership or personnel."
+  },
+  "La Juice Company, Llc:Jamba Juice:CALIFORNIA|Slo Life Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLC entities ('La Juice Company' vs 'Slo Life Company') operating in different cities (Los Angeles vs Arroyo Grande), and while both are California-based Jamba/Jamba Juice franchisees, the company names share no meaningful similarity to suggest common ownership."
+  },
+  "Jamkash, Llc:Jamba:CALIFORNIA|La Jamba, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('La Jamba, LLC' vs 'Jamkash, LLC') in different cities with no name overlap, making it highly unlikely they represent the same real-world person or entity."
+  },
+  "Danmar Enterprises, Inc.:Cinnabon:GEORGIA|Emerging Enterprises Llc:Jamba Juice:GEORGIA": {
+    "match": false,
+    "reason": "The entity names are completely different corporate names ('Danmar Enterprises' vs 'Emerging Enterprises') with no overlapping identifiers, and while both are in Georgia they are different LLCs operating distinct brands."
+  },
+  "Cmcs Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "RPM Juice, Inc. and CMCS Juice, LP are distinct legal entities with different names, structures, and cities (Sherman Oaks vs. Cypress), making it very unlikely they represent the same real-world operator."
+  },
+  "Gateway Travel Center, Inc.:Jamba Juice:CALIFORNIA|Walnut Travel Center, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities ('Gateway Travel Center, Inc.' vs 'Walnut Travel Center, Inc.') in different cities with no overlapping names, though the shared 'Travel Center' naming pattern and California geography suggests they could be related operators \u2014 but without a common individual name, a definitive person-level match cannot be established."
+  },
+  "Cmcs Juice, Lp:Jamba Juice:CALIFORNIA|Rpm Juice, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CMCS Juice, LP vs. RPM Juice, Inc.) with different names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Garner Hospitality Group, Llc:Jamba Juice:TEXAS|T&C Hospitality, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different ('T&C Hospitality, LLC' vs 'Garner Hospitality Group, LLC') with no overlapping identifiers, and they operate in different Texas cities (Abilene vs Murphy) with no evidence of common ownership."
+  },
+  "C&T Hospitality, Llc:Cinnabon:TEXAS|Garner Hospitality Group, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different (C&T Hospitality vs. Garner Hospitality Group) with no overlapping identifiers, and the cities are ~300 miles apart (Lubbock vs. Murphy, TX), making it highly unlikely these represent the same operator."
+  },
+  "Four Leaf Ventures, Llc:Jamba Juice:TEXAS|Jireh Jorman Ventures, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names are entirely different ('Jireh Jorman Ventures' vs 'Four Leaf Ventures') with no overlapping words, different cities (San Antonio vs Dallas Fort Worth), and no evidence linking these two LLCs to the same individual."
+  },
+  "Cowtown Smoothies, Llc:Jamba:TEXAS|Smoothie Life Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names operating in different Texas cities (El Paso vs. Fort Worth), with no overlapping identifiers suggesting common ownership."
+  },
+  "Cowtown Smoothies, Llc:Jamba Juice:TEXAS|Smoothie Life Llc:Jamba:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Cowtown Smoothies vs. Smoothie Life) operating in different Texas cities (Fort Worth vs. El Paso), and entity name differences indicate separate ownership despite both being Jamba/Jamba Juice franchisees."
+  },
+  "Pilot Travel Centers Llc:Cinnabon:CALIFORNIA|Yosemite Travel Center Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Pilot Travel Centers LLC vs Yosemite Travel Center LLC) operating different brands in different cities, with no name overlap suggesting common ownership."
+  },
+  "Tetrad Investments, Lp:Jamba Juice:CALIFORNIA|Victorious Investments Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities \u2014 'Victorious Investments LLC' and 'Tetrad Investments, LP' \u2014 with different names, different legal structures, and different cities in California, providing no basis to conclude they represent the same person or ownership group."
+  },
+  "Golden West Smoothies, Llc:Jamba Juice:CALIFORNIA|Socal Smoothies, Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLC entities ('Socal Smoothies' vs 'Golden West Smoothies') operating different brands in different cities; while both are California-based smoothie-adjacent operators and common ownership is plausible, the different entity names suggest different legal owners with no strong evidence of identity."
+  },
+  "Golden West Smoothies, Llc:Jamba:CALIFORNIA|Socal Smoothies, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Socal Smoothies vs. Golden West Smoothies) at different addresses in different cities, though both operate smoothie-related Jamba/Jamba Juice franchises in the LA area \u2014 possible same owner, but the different entity names and locations suggest separate operators without stronger corroborating evidence."
+  },
+  "Coyle Investments Llc:Jamba:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Tera Investments, Inc.' and 'Coyle Investments LLC' \u2014 with different names, operating in different cities (Davis vs. Oakley), and representing different legal persons with no overlapping identifiers."
+  },
+  "Walnut Travel Center, Inc.:Jamba:CALIFORNIA|Yosemite Travel Center Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities (Yosemite Travel Center LLC vs. Walnut Travel Center, Inc.) operating in different California cities (Madera vs. Greenfield), with different names suggesting different ownership groups, though both appear to be travel center operators franchising juice brands."
+  },
+  "Golden West Smoothies, Llc:Jamba Juice:CALIFORNIA|Socal Smoothies, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Golden West Smoothies vs. Socal Smoothies) operating in different cities (Pasadena vs. Carson), and while both are Jamba/Jamba Juice franchisees in California, LLC entity names alone are insufficient to establish same-person identity without shared principals or addresses."
+  },
+  "Five Star Pretzel, Llc:Jamba Juice:TEXAS|Texas Pretzels, Inc.:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are distinct corporate entities ('Texas Pretzels, Inc.' vs 'Five Star Pretzel, Llc') operating in different Texas cities under different franchise brands, with no overlapping name elements indicating common ownership."
+  },
+  "Dual Concepts, Llc:Cinnabon:TEXAS|Fresh Dining Concepts Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "These are two different LLCs with distinct names ('Dual Concepts' vs 'Fresh Dining Concepts'), operating in different cities (Ft. Bliss vs Austin), with no overlapping identifiers to suggest common ownership."
+  },
+  "Chops Global Llc:Jamba Juice:TEXAS|Dual Concepts, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records are different LLCs with different names ('Dual Concepts, LLC' vs 'Chops Global LLC'), operating in different cities (Ft. Bliss vs San Antonio), with no naming overlap to suggest common ownership."
+  },
+  "Genco Ventures, Llc:Cinnabon:TEXAS|Ptv Venture, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The two records are distinct LLCs with different names (Genco Ventures vs. PTV Venture), operating different brands in different Texas cities with no apparent naming overlap suggesting common ownership."
+  },
+  "Lp Buns Llc:Cinnabon:TEXAS|Mer Business Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different LLCs ('Lp Buns Llc' vs 'Mer Business Llc') with no overlapping name components, operating in different Texas cities (La Porte vs San Antonio), making it very unlikely these represent the same person."
+  },
+  "Ba Ba Llc:Cinnabon:TEXAS|Brkbread, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The entity names 'Ba Ba Llc' and 'Brkbread, Llc' are entirely different LLCs with no name overlap, making it highly unlikely they represent the same person or ownership group."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|True Amici Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records represent entirely different legal entities ('True Amici LLC' vs 'Amirah Ventures LLC') in different cities (Woodway vs Houston), with no name overlap or other indicators suggesting common ownership."
+  },
+  "Harmony Tree, Llc:Jamba Juice:TEXAS|True Amici Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names, different cities (Woodway vs. Plano), and different brands, providing no evidence of a common owner."
+  },
+  "Bds Travel Center Inc.:Jamba Juice:CALIFORNIA|Pilot Travel Centers Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Pilot Travel Centers LLC vs. BDS Travel Center Inc.) with different names, and there is no basis to conclude they represent the same real-world person."
+  },
+  "Brea Juice Company, Llc:Jamba:CALIFORNIA|Slo Life Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs with different names (Slo Life Company vs. Brea Juice Company) operating in different cities (San Luis Obispo vs. Glendale), and while both are California Jamba/Jamba Juice operators they show no direct evidence of common ownership."
+  },
+  "Juicecrafters Inc.:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (RPM Juice, Inc. vs. Juicecrafters Inc.) operating in different cities (Sherman Oaks vs. Azusa), with no name overlap suggesting common ownership."
+  },
+  "Clk 3 Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities (RPM Juice, Inc. vs CLK 3 Juice, LP) with different names, structures, and cities (Sherman Oaks vs Poway), indicating different operators despite both being California-based Jamba Juice franchisees."
+  },
+  "Clk 5 Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (RPM Juice, Inc. vs CLK 5 Juice, LP) with different legal structures, different cities, and no name overlap suggesting common ownership."
+  },
+  "Clk 1 Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities (RPM Juice, Inc. vs CLK 1 Juice, LP) with different names, different legal structures, different cities, and different addresses, making it highly unlikely they represent the same real-world person or operator."
+  },
+  "Clk 6 Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (RPM Juice, Inc. vs CLK 6 Juice, LP) with different names, different cities, and different addresses, making it very unlikely they represent the same real-world person."
+  },
+  "Clk 4 Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (RPM Juice, Inc. vs CLK 4 Juice, LP) with different legal structures, different cities, and no name overlap suggesting common ownership."
+  },
+  "Pak Investment, Inc.:Jamba:CALIFORNIA|Tetrad Investments, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct legal entities \u2014 'Tetrad Investments, LP' and 'Pak Investment, Inc.' \u2014 with different names, structures, and cities (Tustin vs. Jurupa Valley), making it very unlikely they refer to the same real-world person or ownership group."
+  },
+  "American Juice Company Inc.:Jamba Juice:CALIFORNIA|Brea Juice Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities ('American Juice Company Inc.' vs 'Brea Juice Company, LLC') at different addresses in different cities, with no shared naming elements to suggest common ownership."
+  },
+  "Juicecrafters Inc.:Jamba Juice:CALIFORNIA|Rpm Juice, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Juicecrafters Inc. vs. RPM Juice, Inc.) operating in different cities (West Covina vs. Burbank), with no name overlap to suggest common ownership."
+  },
+  "Coyle Investments Llc:Jamba:CALIFORNIA|Pak Investment, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct legal entities ('Pak Investment, Inc.' and 'Coyle Investments Llc') with different names, different cities (Winchester vs. Oakley), and different addresses, making it highly unlikely they refer to the same real-world person or operator."
+  },
+  "Pak Investment, Inc.:Jamba Juice:CALIFORNIA|Tetrad Investments, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities with different names, different cities (Winchester vs Tustin), and different addresses, making it highly unlikely they represent the same real-world person or operator."
+  },
+  "La Jamba, Llc:Jamba:CALIFORNIA|Socal Jamba, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLCs (Socal Jamba vs La Jamba) operating in different California cities (Beverly Hills vs Commerce), suggesting separate franchise entities despite both being Jamba-brand operators in California."
+  },
+  "Clk 1 Juice, Lp:Jamba Juice:CALIFORNIA|Rpm Juice, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CLK 1 Juice LP vs RPM Juice Inc.) with different names, different cities, and no indication of common ownership."
+  },
+  "13P Juice, Llc:Jamba:CALIFORNIA|Clk 1 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CLK 1 Juice LP vs 13P Juice LLC) with different names, different cities, and no evidence of common ownership or naming patterns that would suggest the same person."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|La Juice Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs ('13P Juice, LLC' vs 'La Juice Company, LLC') in different cities (Auburn vs Alhambra), with no name overlap suggesting common ownership."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Clk 3 Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (13P Juice LLC vs CLK 3 Juice LP) with different names, different entity types, and different cities, making them almost certainly different franchise operators."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Clk 1 Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (13P Juice LLC vs CLK 1 Juice LP) with different structures, different cities, and no name overlap suggesting common ownership."
+  },
+  "Brea Juice Company, Llc:Jamba Juice:CALIFORNIA|Slo Life Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names and cities \u2014 'Brea Juice Company, LLC' and 'Slo Life Company, LLC' show no naming overlap, and entity-based operator records rarely resolve to the same person without shared naming or corroborating evidence."
+  },
+  "American Juice Company Inc.:Jamba:CALIFORNIA|Brea Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities \u2014 'Brea Juice Company, LLC' and 'American Juice Company Inc.' \u2014 with different names, different cities, and no overlapping identifiers that would suggest common ownership."
+  },
+  "13P Juice, Llc:Jamba:CALIFORNIA|La Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLC entities ('La Juice Company, LLC' vs '13P Juice, LLC') operating in different cities (Los Angeles vs Auburn), with no name overlap suggesting common ownership."
+  },
+  "La Jamba, Llc:Jamba Juice:CALIFORNIA|Socal Jamba, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('La Jamba, LLC' vs 'Socal Jamba, LLC') in different cities (Montebello vs Cudahy), suggesting separate legal entities and likely different owners despite both operating Jamba Juice/Jamba franchises in Southern California."
+  },
+  "Clk 4 Juice, Lp:Jamba Juice:CALIFORNIA|Rpm Juice, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities (CLK 4 Juice LP vs RPM Juice Inc.) operating in different cities (San Diego vs Burbank), with no name overlap suggesting common ownership."
+  },
+  "Epoch Five Enterprises Llc:Jamba Juice:OHIO|Rukieh Enterprises, Llc:Cinnabon:OHIO": {
+    "match": false,
+    "reason": "The entity names are entirely different (Rukieh Enterprises vs. Epoch Five Enterprises), operate different brands in different Ohio cities with no geographic overlap, and there is no basis to link them to the same real-world person."
+  },
+  "Epoch Five Enterprises Llc:Jamba Juice:OHIO|Lyndal Enterprises, Inc.:Little Caesars:OHIO": {
+    "match": false,
+    "reason": "These are two distinct legal entities (Epoch Five Enterprises LLC vs. Lyndal Enterprises, Inc.) with different names, different cities, and no overlapping identifiers to suggest common ownership."
+  },
+  "Jj Port Llc:Jamba:NEW YORK|Jj Roosevelt, Llc:Jamba Juice:NEW YORK": {
+    "match": false,
+    "reason": "Both are LLC entities with 'JJ' prefixes operating Jamba Juice/Jamba in New York, suggesting possible common ownership, but the different LLC names, distinct cities (Garden City vs. Manhattan), and different addresses indicate these are likely separate franchise entities rather than the same record \u2014 though they may share a common parent owner."
+  },
+  "Jj Port Llc:Jamba Juice:NEW YORK|Jj Roosevelt, Llc:Jamba:NEW YORK": {
+    "match": false,
+    "reason": "These are distinct LLCs ('JJ Port LLC' vs 'JJ Roosevelt LLC') likely named after their locations (Port Authority/8th Ave vs Roosevelt Field area/Old Country Road Garden City), not individual persons, and represent separate franchise entities despite both being Jamba Juice operators in New York."
+  },
+  "Emerging Enterprises Llc:Jamba Juice:GEORGIA|Osman Enterprises, Llc *:Little Caesars:GEORGIA": {
+    "match": false,
+    "reason": "The entity names are completely different ('Emerging Enterprises LLC' vs 'Osman Enterprises LLC'), suggesting different ownership groups with no name-based overlap to indicate the same person."
+  },
+  "Bruegger'S Enterprises, Inc.:Jamba Juice:PENNSYLVANIA|Lyndal Enterprises, Inc.:Little Caesars:PENNSYLVANIA": {
+    "match": false,
+    "reason": "The names are entirely different corporate entities ('Bruegger'S Enterprises, Inc.' vs. 'Lyndal Enterprises, Inc.') with no name overlap, different cities, and different franchise brands."
+  },
+  "Dia Juice, Llc:Jamba:COLORADO|Fm Juice Company, Llc:Jamba Juice:COLORADO": {
+    "match": false,
+    "reason": "These are two distinct LLCs (FM Juice Company vs. Dia Juice) with different names, both operating near Denver International Airport on Pena Blvd \u2014 likely different operators holding separate Jamba/Jamba Juice franchise units at different airport concourse locations."
+  },
+  "Dia Juice, Llc:Jamba Juice:COLORADO|Fm Juice Company, Llc:Jamba:COLORADO": {
+    "match": false,
+    "reason": "These are two distinct LLCs (Dia Juice vs. FM Juice Company) at different addresses on Pena Blvd, likely different operators at Denver International Airport concessions, not the same person or entity."
+  },
+  "Rexburg Smoothie Company Llc:Jamba:IDAHO|Trees Company Llc:Jamba Juice:IDAHO": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (Trees Company LLC vs Rexburg Smoothie Company LLC) in different cities (Boise vs Rexburg), and while both operate in Idaho under Jamba/Jamba Juice brands, there is insufficient evidence to conclude they share the same real-world owner without additional corroborating information."
+  },
+  "Rexburg Smoothie Company Llc:Jamba Juice:IDAHO|Trees Company Llc:Jamba:IDAHO": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (Rexburg Smoothie Company vs Trees Company) in different cities (Rexburg vs Boise), making them almost certainly different legal entities and operators despite both being in Idaho and operating Jamba/Jamba Juice franchises."
+  },
+  "Riyad Omar, Asil Omar:Cinnabon:DELAWARE|Riyad Omar:Jamba Juice:DELAWARE": {
+    "match": true,
+    "reason": "Riyad Omar appears in both records at the identical address (160 Rehoboth Ave/Avenue, Rehoboth Beach, Delaware), and Record A's 'Asil Omar' is simply a second person listed alongside Riyad, not a different identity for Riyad himself."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Mejores Amigos Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names ('Mejores Amigos LLC' vs 'Amirah Ventures LLC'), and while both are in the greater Houston, TX area, there is no indication the same individual owns both entities."
+  },
+  "Amirah Ventures Llc:Jamba:TEXAS|Ptv Venture, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with completely different names (PTV Venture vs Amirah Ventures), operating in different Texas cities (Dallas vs Houston), with no name overlap suggesting common ownership."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Ptv Venture, Llc:Jamba:TEXAS": {
+    "match": false,
+    "reason": "The two records are distinct LLCs with different names (Amirah Ventures vs. PTV Venture) operating in different Texas cities (Houston vs. Dallas), making it highly unlikely they represent the same real-world person or entity."
+  },
+  "Gateway Travel Center, Inc.:Jamba Juice:CALIFORNIA|Pilot Travel Centers Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Pilot Travel Centers LLC' and 'Gateway Travel Center, Inc.' \u2014 with different names, different cities, and no basis to conclude they represent the same real-world person or organization."
+  },
+  "Juice To Go, Llc:Jamba:CALIFORNIA|Valley Juice, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs ('Valley Juice, LLC' vs 'Juice To Go, LLC') in different cities (San Leandro vs Los Angeles), and while both operate Jamba/Jamba Juice franchises in California, the distinct entity names and geographic separation make it unlikely they represent the same operator."
+  },
+  "Cal Poly Corporation:Jamba Juice:CALIFORNIA|Janki Blend Corporation:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities ('Cal Poly Corporation' in San Luis Obispo vs. 'Janki Blend Corporation' in Livermore) with different names, different cities, and no plausible connection between the two legal entity names."
+  },
+  "Juice To Go, Llc:Jamba Juice:CALIFORNIA|Valley Juice, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Juice To Go vs Valley Juice) operating in different cities (Santa Monica vs Alameda), and while both are California Jamba Juice operators, there is no evidence they share common ownership."
+  },
+  "Juice To Go, Llc:Jamba Juice:CALIFORNIA|Talk To Me Juice L.L.C:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names, cities, and addresses \u2014 'Juice To Go, LLC' in Santa Monica and 'Talk To Me Juice L.L.C' in Hollister share no identifying information suggesting common ownership."
+  },
+  "Apna Investment Group Inc:Jamba:CALIFORNIA|Pak Investment, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Pak Investment, Inc.' vs 'Apna Investment Group Inc') operating in different California cities (Winchester vs Dinuba) with no name overlap suggesting common ownership."
+  },
+  "Apna Investment Group Inc:Jamba Juice:CALIFORNIA|Pak Investment, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Apna Investment Group Inc' vs 'Pak Investment, Inc.') with different names, different cities (Clovis vs Jurupa Valley), and no overlapping identifiers suggesting common ownership."
+  },
+  "Amg Pretzel Bon Llc:Cinnabon:ILLINOIS|Juice And Pretzel Inc:Jamba Juice:ILLINOIS": {
+    "match": false,
+    "reason": "Both records are LLC/Inc entity names with no personal name overlap, representing different companies (AMG Pretzel Bon LLC vs Juice And Pretzel Inc) in different cities, making individual identity resolution impossible and entity identity unlikely."
+  },
+  "Gns Holdings Inc.:Jamba Juice:NEVADA|O.N.E. Holdings, Llc:Cinnabon:NEVADA": {
+    "match": false,
+    "reason": "The entities have completely different names (O.N.E. Holdings vs. GNS Holdings) with no name overlap, different cities within Nevada, and different addresses, making them distinct legal entities."
+  },
+  "Ina Kuruvilla:Jamba Juice:TEXAS|Krmil, Inc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "Record A is a corporate entity (Krmil, Inc) operating Cinnabon in Cypress, TX, while Record B is an individual (Ina Kuruvilla) operating Jamba Juice in Arlington, TX \u2014 different names, different cities, and no plausible name linkage."
+  },
+  "Garner Hospitality Group, Llc:Jamba Juice:TEXAS|P&P Hospitality Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records represent entirely different legal entities \u2014 P&P Hospitality LLC and Garner Hospitality Group LLC \u2014 with no overlapping names, and are located in different Texas cities (Kingsville vs. Murphy)."
+  },
+  "S&Jean Llc:Cinnabon:CALIFORNIA|Socal Jamba, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (S&Jean LLC vs Socal Jamba LLC) operating different brands in different cities, with no name overlap suggesting common ownership."
+  },
+  "Vitaligent-East Bay, Llc:Jamba Juice:CALIFORNIA|Vitaligent-Norcal, Llc:Jamba:CALIFORNIA": {
+    "match": true,
+    "reason": "Both are LLCs under the 'Vitaligent' brand family operating in Northern California (East Bay and NorCal regions), and Jamba Juice rebranded to Jamba, strongly suggesting these are related entities under the same ownership group."
+  },
+  "Cmcs 2 Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (RPM Juice, Inc. vs. CMCS 2 Juice, LP) with different names, different corporate structures, and operating in different cities (Sherman Oaks vs. Costa Mesa), making it very unlikely they represent the same person."
+  },
+  "Cmcs 3 Juice, Lp:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (RPM Juice, Inc. and CMCS 3 Juice, LP) with different names, different legal structures, and different cities, making it highly unlikely they represent the same real-world person or ownership group."
+  },
+  "Rpm Jamba #6, Inc.:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": true,
+    "reason": "Both are California-based corporate entities sharing the 'RPM' prefix and Jamba Juice brand affiliation, strongly suggesting the same franchise operator doing business through related entities."
+  },
+  "Coyle Investments Llc:Jamba:CALIFORNIA|Simshiv Investments Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Simshiv Investments Inc. vs. Coyle Investments LLC) with different names, operating in different cities (Calexico vs. Oakley), with no name overlap suggesting common ownership."
+  },
+  "Bds Travel Center Inc.:Jamba:CALIFORNIA|Yosemite Travel Center Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct business entities (Yosemite Travel Center LLC vs. BDS Travel Center Inc.) operating in different California cities (Madera vs. Santa Nella), with no overlapping name elements suggesting common ownership."
+  },
+  "Bds Travel Center Inc.:Jamba Juice:CALIFORNIA|Yosemite Travel Center Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct business entities (BDS Travel Center Inc. vs Yosemite Travel Center LLC) in different cities, with no name overlap suggesting common ownership."
+  },
+  "Cmcs 3 Juice, Lp:Jamba Juice:CALIFORNIA|Rpm Juice, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CMCS 3 Juice, LP vs. RPM Juice, Inc.) with different names, structures, and cities, indicating different franchise operators rather than the same person."
+  },
+  "13P Juice, Llc:Jamba:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct legal entities ('Cmcs 3 Juice, Lp' vs '13P Juice, Llc') with different names, structures, and cities, making it highly unlikely they refer to the same real-world person or operator."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Cmcs 3 Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (13P Juice LLC vs CMCS 3 Juice LP) with different names, structures, and cities, indicating different operators despite both being California-based Jamba Juice franchisees."
+  },
+  "Cmcs 2 Juice, Lp:Jamba Juice:CALIFORNIA|Rpm Juice, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records are distinct legal entities (CMCS 2 Juice LP vs RPM Juice Inc.) with different names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Sea Titan Enterprises, Llc:Little Caesars:FLORIDA|Sun N' Fun Enterprises, Inc.:Jamba Juice:FLORIDA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Sun N' Fun Enterprises, Inc.' vs 'Sea Titan Enterprises, LLC') with different names, different brands, and located in different Florida cities over 200 miles apart, with no overlapping identifiers suggesting common ownership."
+  },
+  "Pocatello Smoothie Co Llc:Jamba Juice:IDAHO|Rexburg Smoothie Company Llc:Jamba:IDAHO": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names and cities (Pocatello vs. Rexburg), though both are Idaho-based smoothie franchise operators under the Jamba/Jamba Juice brand \u2014 they could share common ownership, but as entity-level records they represent different legal operators."
+  },
+  "Pocatello Smoothie Co Llc:Jamba:IDAHO|Rexburg Smoothie Company Llc:Jamba Juice:IDAHO": {
+    "match": false,
+    "reason": "Both are Idaho-based Jamba/Jamba Juice LLCs with similar naming patterns ('X Smoothie Co/Company LLC'), suggesting possible common ownership, but they are distinct legal entities in different cities (Rexburg vs. Pocatello) and cannot be confirmed as the same person without individual owner data."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Hmr Pretzels, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records represent entirely different legal entities ('HMR Pretzels LLC' vs 'Amirah Ventures LLC') operating in different Texas cities (El Paso vs Houston) with no name overlap to suggest common ownership."
+  },
+  "Me & J Investment, Llc:Cinnabon:TEXAS|Mer Business Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The entity names are distinctly different LLCs ('Me & J Investment' vs 'Mer Business') with no name overlap, operating in different Texas cities (Houston vs San Antonio), making it very unlikely these represent the same real-world person or ownership group."
+  },
+  "Abjjjg Llc:Jamba Juice:TEXAS|Ba Ba Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names 'Ba Ba Llc' and 'Abjjjg Llc' are completely different LLC names with no phonetic or structural similarity, and while both are in Texas, they operate in different cities (Sugar Land vs. Cedar Park) for different brands."
+  },
+  "Farooq Holdings, Llc:Cinnabon:TEXAS|Kawaja Holdings, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different ('Farooq Holdings' vs 'Kawaja Holdings'), suggesting distinct ownership groups with no name overlap to indicate the same person."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Prigom Ventures Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The entity names are completely different ('Prigom Ventures LLC' vs 'Amirah Ventures LLC'), suggesting distinct legal entities with no apparent name-based connection, despite both operating in Texas."
+  },
+  "Greypoint Ventures Llc:Jamba Juice:CALIFORNIA|Mcf Ventures Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records are different LLCs with distinct names (MCF Ventures vs. Greypoint Ventures) operating in different California cities, with no name overlap to suggest common ownership."
+  },
+  "Juice To Go, Llc:Jamba Juice:CALIFORNIA|La Juice Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "Both are LLCs with different names ('Juice To Go, LLC' vs 'La Juice Company, LLC') operating Jamba/Jamba Juice locations in different California cities, suggesting these are distinct legal entities and likely different operators despite the same brand and state."
+  },
+  "Bds Travel Center Inc.:Jamba:CALIFORNIA|Kramer Junction Travel Center Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs with different names (Kramer Junction Travel Center vs. BDS Travel Center) in different California cities, suggesting distinct business entities despite both being travel center operators in the Jamba/Jamba Juice system."
+  },
+  "Bds Travel Center Inc.:Jamba Juice:CALIFORNIA|Kramer Junction Travel Center Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct business entities (BDS Travel Center Inc. vs. Kramer Junction Travel Center LLC) operating in different California cities, with no name overlap suggesting common ownership."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Brea Juice Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (13P Juice vs. Brea Juice Company), different cities (Auburn vs. Glendale), and no overlapping identifiers suggesting common ownership."
+  },
+  "13P Juice, Llc:Jamba:CALIFORNIA|Brea Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names ('Brea Juice Company' vs '13P Juice') in different cities (Los Angeles vs Auburn), making them almost certainly different legal entities and operators."
+  },
+  "Juice To Go, Llc:Jamba:CALIFORNIA|La Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names ('La Juice Company, LLC' vs 'Juice To Go, LLC'), and while both operate Jamba/Jamba Juice in Los Angeles, entity name differences indicate separate legal operators rather than the same person."
+  },
+  "Ghost Kitchens America Inc.:Cinnabon:NEW YORK|Ssp America, Inc.:Jamba Juice:NEW YORK": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 Ghost Kitchens America Inc. and SSP America, Inc. \u2014 operating in different cities (Rochester vs. Jamaica/JFK) with no name overlap."
+  },
+  "Colorado Dostana Llc:Cinnabon:COLORADO|Whirl Colorado Llc:Jamba Juice:COLORADO": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('Colorado Dostana LLC' vs 'Whirl Colorado LLC') with different names, different cities, and different addresses, making it unlikely they represent the same individual operator despite both being in Colorado."
+  },
+  "Pilot Travel Centers Llc:Cinnabon:WISCONSIN|V & J Center, Llc:Jamba Juice:WISCONSIN": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Pilot Travel Centers LLC' (a large national travel center chain) and 'V & J Center, LLC' \u2014 with different names, different cities, and no plausible connection between them."
+  },
+  "Harmony Tree, Llc:Jamba Juice:TEXAS|Hmr Pretzels, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (HMR Pretzels vs. Harmony Tree), different brands (Cinnabon vs. Jamba Juice), and different cities (El Paso vs. Plano), with no meaningful name overlap to suggest common ownership."
+  },
+  "Pharos Icebox Llc:Cinnabon:TEXAS|Ras Club Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Pharos Icebox LLC vs Ras Club LLC), different brands, and different cities, with no evidence of shared ownership."
+  },
+  "Chops Global Llc:Jamba Juice:TEXAS|Vllc L.L.C.:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records are distinct LLCs with different names, different cities, and different brands, with no name overlap suggesting common ownership."
+  },
+  "Amirah Ventures Llc:Jamba Juice:TEXAS|Jaa Texas Llc:Jamba:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Amirah Ventures vs. JAA Texas), operating in different Texas cities (Houston vs. Harlingen), with no overlapping identifiers suggesting common ownership."
+  },
+  "Amirah Ventures Llc:Jamba:TEXAS|Jaa Texas Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "These are distinct LLCs with completely different names (Jaa Texas LLC vs Amirah Ventures LLC) operating in different cities (Harlingen vs Houston), indicating different business entities and almost certainly different owners."
+  },
+  "Pak Investment, Inc.:Jamba Juice:CALIFORNIA|Teta Inc.:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Teta Inc.' and 'Pak Investment, Inc.') with different names, operating different brands in different cities roughly 200 miles apart, with no overlapping identifiers to suggest common ownership."
+  },
+  "Sonnshine Llc:Jamba Juice:CALIFORNIA|Sonson Group, Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are distinct ('Sonson Group' vs 'Sonnshine') with no clear common root, and the cities are geographically distant (Pasadena vs San Ramon), making it unlikely these represent the same person or entity."
+  },
+  "Sohoon Im Llc:Jamba Juice:CALIFORNIA|Sonson Group, Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are entirely different ('Sonson Group, LLC' vs 'Sohoon Im LLC') with no phonetic or structural similarity, and they operate in different cities with no address overlap."
+  },
+  "Grappa Investments Llc:Jamba Juice:CALIFORNIA|Victorious Investments Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent different LLCs ('Victorious Investments LLC' vs 'Grappa Investments LLC') with distinct names, different cities, and different franchise brands, making it unlikely they refer to the same real-world person or entity."
+  },
+  "Greypoint Ventures Llc:Jamba Juice:CALIFORNIA|Ziya Ventures, Inc.:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent entirely different legal entities ('Ziya Ventures, Inc.' vs 'Greypoint Ventures LLC') operating in different cities (Redding vs Camarillo), with no name overlap to suggest common ownership."
+  },
+  "Bakersfield Travel Plaza Inc.:Cinnabon:CALIFORNIA|Refresh Travel Plaza Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different corporate entities ('Bakersfield Travel Plaza Inc.' vs 'Refresh Travel Plaza Inc.') operating in different cities, with no name overlap suggesting common ownership."
+  },
+  "Bakersfield Travel Plaza Inc.:Jamba Juice:CALIFORNIA|Refresh Travel Plaza Inc.:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities ('Refresh Travel Plaza Inc.' vs 'Bakersfield Travel Plaza Inc.') operating in different cities under different brands, with no name overlap to suggest common ownership."
+  },
+  "Plaza Vista Food Inc.:Cinnabon:CALIFORNIA|Sim Shiv Travel Plaza Inc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities with different names, different cities, and different franchise brands, with no name overlap suggesting common ownership."
+  },
+  "Bakersfield Travel Plaza Inc.:Jamba Juice:CALIFORNIA|Plaza Vista Food Inc.:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Plaza Vista Food Inc. vs. Bakersfield Travel Plaza Inc.) with different names, different cities, and different brands, making it highly unlikely they represent the same real-world person or organization."
+  },
+  "13P Juice, Llc:Jamba:CALIFORNIA|Valley Juice, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (Valley Juice, LLC vs. 13P Juice, LLC) operating in different cities (San Leandro vs. Auburn), and while both are Jamba/Jamba Juice franchisees in California, there is no evidence they represent the same owner without additional linking data."
+  },
+  "Sohoon Im Llc:Jamba:CALIFORNIA|Sonnshine Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names 'Sonnshine LLC' and 'Sohoon Im LLC' are distinctly different \u2014 one appears to be a descriptive business name while the other contains a personal name (Sohoon Im), and they operate in different cities with no address overlap."
+  },
+  "Smoothie Operator, Inc.:Jamba:CALIFORNIA|Sodexo Operations, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Sodexo Operations, LLC' (a large foodservice company based in Thousand Oaks) and 'Smoothie Operator, Inc.' (a separate franchisee in Roseville) \u2014 with different names, addresses, and no indication they represent the same person or organization."
+  },
+  "Coyle Investments Llc:Jamba:CALIFORNIA|Tetrad Investments, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct legal entities ('Tetrad Investments, LP' vs 'Coyle Investments LLC') with different names, located in different cities (Tustin vs Oakley), and no overlapping identifiers suggest common ownership."
+  },
+  "Gateway Travel Center, Inc.:Jamba Juice:CALIFORNIA|Kramer Junction Travel Center Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct business entities (Gateway Travel Center, Inc. in Visalia vs. Kramer Junction Travel Center LLC in Kramer Junction) with different names and locations, despite both being California travel center operators in the Jamba/Jamba Juice system."
+  },
+  "Bakersfield Travel Plaza Inc.:Jamba Juice:CALIFORNIA|Refresh Travel Plaza Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are corporate entities with different names ('Bakersfield Travel Plaza Inc.' vs 'Refresh Travel Plaza Inc.') in different cities, suggesting distinct legal persons or companies despite both operating in California and in the travel plaza/convenience sector."
+  },
+  "Jamkash, Llc:Jamba:CALIFORNIA|Socal Jamba, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('Socal Jamba, Llc' in Beverly Hills vs 'Jamkash, Llc' in Fillmore) with different names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Apna Investment Group Inc:Jamba Juice:CALIFORNIA|Tera Investments, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Apna Investment Group Inc' vs 'Tera Investments, Inc.') with different names, different cities (Clovis vs Davis), and no indicators of common ownership."
+  },
+  "Apna Investment Group Inc:Jamba:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities with different names ('Tera Investments, Inc.' vs 'Apna Investment Group Inc'), located in different California cities (Davis vs Dinuba), with no overlapping identifiers."
+  },
+  "Grappa Investments Llc:Jamba:CALIFORNIA|Tera Investments, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are completely different (Tera Investments, Inc. vs. Grappa Investments LLC) with no name overlap, and they operate in different cities (Davis vs. Ripon), making it very unlikely these refer to the same real-world operator."
+  },
+  "Sohoon Im Llc:Jamba Juice:CALIFORNIA|Sonnshine Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names 'Sohoon Im Llc' and 'Sonnshine Llc' are distinct LLCs with different names, different cities (Kettleman City vs. Fremont), and no meaningful name overlap suggesting common ownership."
+  },
+  "Gateway Travel Center, Inc.:Jamba:CALIFORNIA|Kramer Junction Travel Center Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Kramer Junction Travel Center LLC vs Gateway Travel Center, Inc.) operating in different California cities (Kramer Junction vs Visalia), with no name overlap suggesting common ownership."
+  },
+  "Bakersfield Travel Plaza Inc.:Jamba:CALIFORNIA|Refresh Travel Plaza Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities ('Refresh Travel Plaza Inc.' vs 'Bakersfield Travel Plaza Inc.') operating in different cities, though both are travel plaza operators in California selling Jamba Juice/Jamba \u2014 they could share common ownership, but as named entities they are not the same operator record."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Valley Juice, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (13P Juice vs Valley Juice), different cities (Auburn vs Alameda), and no indicators they share common ownership."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Grab N Go Juice, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two different LLCs ('13P Juice, LLC' vs 'Grab N Go Juice, LLC') in different cities (Auburn vs Downey), with no name overlap suggesting common ownership."
+  },
+  "13P Juice, Llc:Jamba Juice:CALIFORNIA|Cmcs Juice, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (13P Juice, LLC vs CMCS Juice, LP) with different structures, different cities, and no name overlap suggesting common ownership."
+  },
+  "13P Juice, Llc:Jamba:CALIFORNIA|Cmcs Juice, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CMCS Juice LP vs 13P Juice LLC) with different names, different cities, and no apparent connection beyond operating in the same state and brand family."
+  },
+  "Grappa Investments Llc:Jamba Juice:CALIFORNIA|Tera Investments, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities \u2014 'Grappa Investments LLC' and 'Tera Investments, Inc.' \u2014 with different names, structures, and cities (Ripon vs. Davis), making it highly unlikely they represent the same real-world person or operator."
+  },
+  "Grab N Go Juice, Llc:Jamba:CALIFORNIA|La Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs ('La Juice Company, LLC' vs 'Grab N Go Juice, LLC') with different names and different cities (Los Angeles vs Downey), indicating separate business entities rather than the same operator."
+  },
+  "Nito Marketing Enterprises, Llc:Cinnabon:FLORIDA|Sun N' Fun Enterprises, Inc.:Jamba Juice:FLORIDA": {
+    "match": false,
+    "reason": "These are two distinct legal entities with completely different names (Nito Marketing Enterprises vs. Sun N' Fun Enterprises) operating different brands in different Florida cities with no overlapping identifiers."
+  },
+  "Epoch Five Enterprises Llc:Jamba Juice:OHIO|Jiya Enterprise, Inc.:Cinnabon:OHIO": {
+    "match": false,
+    "reason": "The entity names are completely different corporate entities (Jiya Enterprise, Inc. vs Epoch Five Enterprises LLC) with no name overlap, operating different brands in different Ohio cities with no indication of common ownership."
+  },
+  "Se Co-Brand Ventures, Llc:Jamba Juice:GEORGIA|Trium Ventures Ii Llc:Cinnabon:GEORGIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names, different cities, and different addresses, with no indication of common ownership or individuals linking them."
+  },
+  "Emerging Enterprises Llc:Jamba Juice:GEORGIA|Family Affair Enterpries, Llc:Little Caesars:GEORGIA": {
+    "match": false,
+    "reason": "These are two distinct LLC entities with different names ('Emerging Enterprises LLC' vs 'Family Affair Enterprises LLC'), operating in different Georgia cities (Kennesaw vs Cairo), with no overlapping identifiers to suggest common ownership."
+  },
+  "Mra Food Llc:Cinnabon:MARYLAND|Yummy Goodeez, Llc:Jamba Juice:MARYLAND": {
+    "match": false,
+    "reason": "The two records are distinct LLCs with different names ('Mra Food Llc' vs 'Yummy Goodeez, Llc'), different cities (Hagerstown vs Owings Mills), and no overlapping identifiers to suggest common ownership."
+  },
+  "Syg Llc:Jamba Juice:WASHINGTON|Tomyn Llc:Little Caesars:WASHINGTON": {
+    "match": false,
+    "reason": "The two records represent different LLCs ('Syg Llc' vs 'Tomyn Llc') with entirely different names, different brands, and different cities, providing no basis for identifying them as the same real-world person or entity."
+  },
+  "Bruegger'S Enterprises, Inc.:Jamba Juice:IOWA|Mlc Enterprises, Llc:Little Caesars:IOWA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Bruegger'S Enterprises, Inc. vs MLC Enterprises, LLC) with different names, different brands, and operating in different Iowa cities with no overlapping identifiers."
+  },
+  "Aloha Juice, Llc:Jamba Juice:TEXAS|Cagnon Cuisine, Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are two different LLCs with different names (Cagnon Cuisine vs. Aloha Juice), different cities (Corsicana vs. McKinney), and different addresses, making it highly unlikely they represent the same real-world person or entity."
+  },
+  "Fresh Dining Concepts Llc:Jamba Juice:TEXAS|Fresquez Concessions, Inc.:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct business entities with different names, different cities (El Paso vs. Austin), and different brands (Cinnabon vs. Jamba Juice), with no name overlap suggesting common ownership."
+  },
+  "Ras Club Llc:Jamba Juice:TEXAS|Sk Fund Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records are different LLC entities ('Sk Fund Llc' vs 'Ras Club Llc') with no name overlap, operating in different Texas cities (League City vs Austin), making it highly unlikely they represent the same real-world person or ownership group."
+  },
+  "Kawaja Holdings, Llc:Jamba Juice:TEXAS|Kuba Foods Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records are distinct LLCs with different names (Kuba Foods vs. Kawaja Holdings) operating in different Texas cities, with no name overlap suggesting a common individual owner."
+  },
+  "Blendii Llc:Jamba Juice:TEXAS|Brkbread, Llc:Jamba:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Blendii LLC vs Brkbread LLC), different cities (McKinney vs Houston), and no identifying information suggesting common ownership."
+  },
+  "Blendii Llc:Jamba:TEXAS|Brkbread, Llc:Jamba Juice:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Brkbread vs Blendii) in different Texas cities (Houston vs McKinney), with no naming similarity suggesting common ownership."
+  },
+  "Cinnaland, Inc.:Cinnabon:CALIFORNIA|Idad-3, Inc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Cinnaland, Inc.' and 'Idad-3, Inc.') with different names, operating different brands in different cities, making it highly unlikely they represent the same real-world person or ownership group."
+  },
+  "Cinnalee, Inc.:Cinnabon:CALIFORNIA|Habibna Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Cinnalee, Inc.' and 'Habibna Inc.') with no name overlap, different brands, and different cities in California, providing no basis for linking them to the same person."
+  },
+  "Efe Aac, Llc:Cinnabon:CALIFORNIA|La Jamba, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct LLC entities ('Efe Aac, Llc' vs 'La Jamba, Llc') with different names, different brands, and different cities, with no shared identifiers to suggest common ownership."
+  },
+  "Tera Investments, Inc.:Jamba Juice:CALIFORNIA|Victorious Investments Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities with different names (Victorious Investments LLC vs. Tera Investments, Inc.) operating in different cities (Rancho Cucamonga vs. Davis), with no name overlap to suggest common ownership."
+  },
+  "Project Westbound, Llc:Cinnabon:CALIFORNIA|Purezest Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names, different cities, and different addresses, making it highly unlikely they refer to the same real-world person or entity."
+  },
+  "Apna Investment Group Inc:Jamba:CALIFORNIA|Compass Group Usa, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two entirely different corporate entities \u2014 'Compass Group USA, Inc.' (a large food service company) and 'Apna Investment Group Inc' (a separate investment company) \u2014 with different names, different cities, and no indication they share common ownership or identity."
+  },
+  "One Whirld, Inc.:Jamba Juice:CALIFORNIA|Whirl San Diego Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities ('One Whirld, Inc.' vs 'Whirl San Diego LLC') operating in different cities (San Rafael vs Carlsbad), with different addresses, and while both relate to Jamba Juice/Jamba branding, the entity names and geographic locations suggest separate operators rather than the same person."
+  },
+  "Fc Juice Partners California, Llc:Jamba Juice:CALIFORNIA|Juicecrafters Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (FC Juice Partners California, LLC vs. Juicecrafters Inc.) with different names, different cities (Thousand Oaks vs. Azusa), and different addresses, making it very unlikely they represent the same real-world person or operator."
+  },
+  "Fc Juice Partners California, Llc:Jamba:CALIFORNIA|Juicecrafters Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Juicecrafters Inc. vs FC Juice Partners California LLC) with different names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Socal Jamba, Llc:Jamba Juice:CALIFORNIA|Sodexo America, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs \u2014 'Socal Jamba, LLC' and 'Sodexo America, LLC' \u2014 with different names, different cities, and no meaningful name overlap; Sodexo America is a well-known large corporate entity unrelated to a regional Jamba operator."
+  },
+  "Apna Investment Group Inc:Jamba Juice:CALIFORNIA|Compass Group Usa, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Apna Investment Group Inc' (Clovis, CA) and 'Compass Group USA, Inc.' (San Jose, CA) \u2014 with completely different names, locations, and no indication of common ownership."
+  },
+  "Cmcs Juice, Lp:Jamba Juice:CALIFORNIA|La Juice Company, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities (CMCS Juice, LP vs. LA Juice Company, LLC) with different names and different cities (Cypress vs. Alhambra), making it unlikely they represent the same real-world person despite both being California Jamba Juice operators."
+  },
+  "Cmcs Juice, Lp:Jamba:CALIFORNIA|La Juice Company, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities (La Juice Company, LLC vs. CMCS Juice, LP) with different names, structures, and cities, making it highly unlikely they refer to the same real-world person or operator."
+  },
+  "One Whirld, Inc.:Jamba:CALIFORNIA|Whirl San Diego Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct legal entities \u2014 'Whirl San Diego LLC' (San Marcos) and 'One Whirld, Inc.' (American Canyon) \u2014 with different corporate names, structures, and locations over 500 miles apart, making separate ownership highly likely despite both operating Jamba/Jamba Juice franchises in California."
+  },
+  "Epoch Five Enterprises Llc:Cinnabon:OHIO|Noor Enterprises Inc.:Jamba Juice:OHIO": {
+    "match": false,
+    "reason": "These are two distinct legal entities ('Epoch Five Enterprises LLC' vs 'Noor Enterprises Inc.') with different names, operating in different Ohio cities (Cleveland vs Columbus), making it highly unlikely they represent the same real-world person or ownership group."
+  },
+  "Epoch Five Enterprises Llc:Jamba Juice:OHIO|Noor Enterprises Inc.:Jamba:OHIO": {
+    "match": false,
+    "reason": "These are distinct legal entities (Epoch Five Enterprises LLC vs. Noor Enterprises Inc.) operating in different Ohio cities (Cleveland vs. Columbus) with no name overlap suggesting common ownership."
+  },
+  "Epoch Five Enterprises Llc:Jamba:OHIO|Noor Enterprises Inc.:Jamba Juice:OHIO": {
+    "match": false,
+    "reason": "The two records represent distinct legal entities ('Noor Enterprises Inc.' vs 'Epoch Five Enterprises Llc') with different names, operating in different Ohio cities (Columbus vs Cleveland), making it highly unlikely these refer to the same real-world person or ownership group."
+  },
+  "Fresh Dining Concepts Llc:Cinnabon:NEW YORK|Global Food Concepts, Llc:Jamba Juice:NEW YORK": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names ('Fresh Dining Concepts' vs 'Global Food Concepts'), and while both operate in New York, different entity names strongly indicate different ownership groups."
+  },
+  "Fresh Dining Concepts Llc:Jamba Juice:NEW YORK|Global Food Concepts, Llc:Jamba:NEW YORK": {
+    "match": false,
+    "reason": "These are distinct LLCs with different names (Fresh Dining Concepts vs. Global Food Concepts) operating at different New York locations, and while both are in the QSR space, there is no strong evidence they share the same ownership despite geographic proximity."
+  },
+  "Fresh Dining Concepts Llc:Jamba:NEW YORK|Global Food Concepts, Llc:Jamba Juice:NEW YORK": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Global Food Concepts vs. Fresh Dining Concepts) operating at different locations in New York, making it unlikely they represent the same legal entity or operator despite both being in the Jamba/Jamba Juice system."
+  },
+  "Grak Concepts Llc:Cinnabon:ARIZONA|Whirld Concepts, Inc.:Jamba Juice:ARIZONA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities (Grak Concepts LLC vs. Whirld Concepts, Inc.) with different names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Rubicon Ventures I, Llc:Cinnabon:SOUTH CAROLINA|Se Co-Brand Ventures, Llc:Jamba Juice:SOUTH CAROLINA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names and different cities in South Carolina, with no apparent name overlap to suggest common ownership."
+  },
+  "Chops Global Llc:Jamba Juice:TEXAS|Kuba Foods Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records represent different LLC entities ('Kuba Foods Llc' vs 'Chops Global Llc') with no name overlap, different cities, and no evidence linking them to the same individual owner."
+  },
+  "Five Star Pretzel, Llc:Jamba Juice:TEXAS|Pritex Restaurants Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Pritex Restaurants vs. Five Star Pretzel), different cities (San Antonio vs. Sugar Land), and different brands, with no apparent connection between the entities."
+  },
+  "Mer Business Llc:Jamba Juice:TEXAS|Verona Gin Llc:Cinnabon:TEXAS": {
+    "match": false,
+    "reason": "The two records represent entirely different LLC entities ('Verona Gin Llc' vs 'Mer Business Llc') with no name overlap, different brands, and different Texas cities with no indication of common ownership."
+  },
+  "Kramer Junction Travel Center Llc:Jamba Juice:CALIFORNIA|Pilot Travel Centers Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities (Pilot Travel Centers LLC vs. Kramer Junction Travel Center LLC) with different names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Pal Brothers Llc:Jamba Juice:CALIFORNIA|Pilot Travel Centers Llc:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Pilot Travel Centers LLC' and 'Pal Brothers LLC' \u2014 with different names, different cities, and no overlapping identifiers."
+  },
+  "Amur, Llc:Cinnabon:CALIFORNIA|La Jamba, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Amur, LLC vs. La Jamba, LLC), different cities, and no overlapping identifiers to suggest common ownership."
+  },
+  "Bakersfield Travel Plaza Inc.:Cinnabon:CALIFORNIA|Sim Shiv Travel Plaza Inc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are distinct corporate entities with different names ('Bakersfield Travel Plaza Inc.' vs 'Sim Shiv Travel Plaza Inc') operating in different cities (Bakersfield vs Baker), with no meaningful name overlap to suggest common ownership."
+  },
+  "Apna Investment Group Inc:Jamba Juice:CALIFORNIA|Majestic Retail Group, Inc.:Cinnabon:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Majestic Retail Group, Inc.' vs 'Apna Investment Group Inc') with different names, operating in different California cities (Canoga Park vs Clovis), with no overlapping identifiers suggesting common ownership."
+  },
+  "Forever Juice, Inc.:Jamba:CALIFORNIA|Rpm Juice, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records are distinct corporate entities (RPM Juice, Inc. vs. Forever Juice, Inc.) with different names and different cities, making it highly unlikely they represent the same real-world person or operating company."
+  },
+  "Grappa Investments Llc:Jamba:CALIFORNIA|Tetrad Investments, Lp:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities (Tetrad Investments LP vs. Grappa Investments LLC) with different names, structures, and cities, with no apparent connection between them beyond operating in California."
+  },
+  "Grappa Investments Llc:Jamba:CALIFORNIA|Pak Investment, Inc.:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "The two records represent distinct legal entities ('Pak Investment, Inc.' vs 'Grappa Investments LLC') with different names, different cities (Winchester vs Ripon), and no overlapping identifiers to suggest common ownership."
+  },
+  "Bakersfield Travel Plaza Inc.:Jamba:CALIFORNIA|Sim Shiv Travel Plaza Inc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities \u2014 'Sim Shiv Travel Plaza Inc' based in Baker and 'Bakersfield Travel Plaza Inc.' based in Bakersfield \u2014 with different names and different cities, making it highly unlikely they refer to the same operator."
+  },
+  "Bakersfield Travel Plaza Inc.:Jamba Juice:CALIFORNIA|Sim Shiv Travel Plaza Inc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are different corporate entities ('Bakersfield Travel Plaza Inc.' vs 'Sim Shiv Travel Plaza Inc') operating in different cities (Bakersfield vs Baker), with no name overlap suggesting common ownership."
+  },
+  "Greypoint Ventures Llc:Jamba:CALIFORNIA|Samra Ventures, Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names (Samra Ventures vs. Greypoint Ventures) operating in different California cities (Berkeley vs. Camarillo), with no shared identifiers suggesting common ownership."
+  },
+  "Greypoint Ventures Llc:Jamba Juice:CALIFORNIA|Samra Ventures, Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "The entity names are completely different (Greypoint Ventures LLC vs. Samra Ventures LLC), suggesting distinct ownership groups, and they operate in different California cities (Camarillo vs. Jackson) with no overlapping indicators."
+  },
+  "Apna Investment Group Inc:Jamba Juice:CALIFORNIA|Grappa Investments Llc:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct corporate entities ('Apna Investment Group Inc' vs 'Grappa Investments Llc') in different California cities (Clovis vs Ripon) with no name overlap suggesting common ownership."
+  },
+  "Kramer Junction Travel Center Llc:Jamba Juice:CALIFORNIA|Walnut Travel Center, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct business entities (an LLC vs. a corporation) operating in different California cities (Kramer Junction vs. Greenfield) with unrelated names and addresses, making it very unlikely they represent the same real-world person or operator."
+  },
+  "Apna Investment Group Inc:Jamba:CALIFORNIA|Grappa Investments Llc:Jamba Juice:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities \u2014 'Grappa Investments LLC' and 'Apna Investment Group Inc' \u2014 with different names, different cities (Ripon vs. Dinuba), and no overlapping identifiers suggesting common ownership."
+  },
+  "Grappa Investments Llc:Jamba Juice:CALIFORNIA|Pak Investment, Inc.:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities \u2014 'Grappa Investments LLC' based in Ripon and 'Pak Investment, Inc.' based in Jurupa Valley \u2014 with different names, different cities, and no overlapping identifiers suggesting common ownership."
+  },
+  "Grappa Investments Llc:Jamba Juice:CALIFORNIA|Tetrad Investments, Lp:Jamba:CALIFORNIA": {
+    "match": false,
+    "reason": "These are two distinct legal entities \u2014 'Grappa Investments LLC' and 'Tetrad Investments, LP' \u2014 with different names, structures (LLC vs LP), and cities (Ripon vs Tustin), making it very unlikely they represent the same real-world person or ownership group."
+  },
+  "J-Chevelle Ventures Llc:Little Caesars:GEORGIA|Se Co-Brand Ventures, Llc:Jamba Juice:GEORGIA": {
+    "match": false,
+    "reason": "The entity names are entirely different LLCs ('Se Co-Brand Ventures' vs 'J-Chevelle Ventures') with no name overlap, different addresses in Atlanta, and no basis to conclude they share a common owner."
+  },
+  "Blended And Blessed, Llc:Jamba Juice:OREGON|Sully Blended Llc:Jamba:OREGON": {
+    "match": false,
+    "reason": "These are two different LLCs with distinct names, addresses, and cities (Sandy vs Sherwood), with no overlapping identifiers suggesting common ownership despite both operating in Oregon."
+  },
+  "Blended And Blessed, Llc:Jamba:OREGON|Sully Blended Llc:Jamba Juice:OREGON": {
+    "match": false,
+    "reason": "These are two distinct LLCs with different names ('Sully Blended' vs 'Blended And Blessed') operating in different cities (Sherwood vs Sandy, OR), and while both are Jamba/Jamba Juice operators in Oregon suggesting possible multi-unit ownership, there is insufficient evidence to conclude they are the same legal entity or individual owner."
   }
 }
